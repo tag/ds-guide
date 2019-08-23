@@ -13,4 +13,6 @@ curriculum.
 !!! note "Still being built!"
     This document is—and probably always will be—a work in progress.
 
+## Chapters
 
+* [Introduction](systems/0-intro/)
