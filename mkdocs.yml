@@ -4,13 +4,6 @@ nav:
     - Chapters:
         - 'Introduction' : 'systems/0-intro.md'
         - 'Chapter 1: Version Control Systems' : 'systems/1-vcs.md'
-        - 'Chapter 2: Working with Data' : 'systems/2-data.md'
-        - 'Chapter 3: Complex Systems' : 'systems/3-systems.md'
-        - 'Version Control Systems':
-            - 'Installing Git': 'empty.md'
-            - 'Using GitHub': 'empty.md'
-        - 'Virtualization':
-            - '“____ as a Service”': 'empty.md'
     - About: about.md
 copyright: "© 2019, Tom Gregory"
 theme: cinder

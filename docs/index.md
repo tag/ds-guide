@@ -13,4 +13,7 @@ curriculum.
 !!! note "Still being built!"
     This document is—and probably always will be—a work in progress.
 
+## Chapters
 
+* [Introduction](systems/0-intro/)
+* [Chapter 1: Version Control Systems](systems/1-vcs/)
