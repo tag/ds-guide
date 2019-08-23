@@ -1,0 +1,7 @@
+.footnote {
+    font-size: 85%;
+}
+
+/*.footnote > hr::after {
+    content: "<h3>Footnotes</h3>";
+}*/
