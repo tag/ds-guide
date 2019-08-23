@@ -45,7 +45,7 @@ domains. It's been slowly losing ground to [nginx] and [Microsoft's IIS][IIS]
 ## What you should already know
 
 Hopefully, you're at least somewhat familiar with your computer. You should also be
-able to install applicaitons and follow instructions. (It might surprise you how
+able to install applications and follow instructions. (It might surprise you how
 frequently that last condition isn't met.) If you aren't already familiar with
 HTML, CSS, and SQL, then it will be helpful to seek out some tutorials when we
 encounter those languages.
@@ -55,7 +55,7 @@ it really doesn't matter which one. C# and Java are good choices. Scripting
 languages like Python, PHP, or Ruby fit the ticket if used in an object-oriented
 way. Again, it doesn't really matter which one, so long as you have some
 familiarity with basic control structures like `if` statements and loops, and
-a basic understanding of polymorphism and inheritence.
+a basic understanding of polymorphism and inheritance.
 
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
@@ -72,7 +72,7 @@ To begin, you should know `ls`, `mkdir`, and `pwd`.
 !!! note "Command Line Tutorials"
     If you are not familiar with the command line, any of these references
     provide a excellent tutorials:
-    
+
     * [_The Linux Command Line_][TLCL] by William Shotts has book and web
     versions.
     * [_Learn Enough Command Line to Be Dangerous_][LECLtbD] by Michael Hartl
@@ -84,4 +84,3 @@ To begin, you should know `ls`, `mkdir`, and `pwd`.
 [LECLtbD]: https://www.learnenough.com/command-line-tutorial/basics
 [TLCL]: http://linuxcommand.org/lc3_learning_the_shell.php
 [CA-CL]: https://www.codecademy.com/learn/learn-the-command-line
-
