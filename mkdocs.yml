@@ -3,9 +3,12 @@ nav:
     - Home: index.md
     - Chapters:
         - 'Introduction' : 'systems/0-intro.md'
+        - 'Chapter 1: Version Control Systems' : 'systems/1-vcs.md'
     - About: about.md
-theme: cinder
 copyright: "© 2019, Tom Gregory"
+theme: cinder
+extra_css:
+  - "css/docs.css"
 markdown_extensions:
     - abbr
     - toc:
@@ -13,6 +16,7 @@ markdown_extensions:
     - admonition
     - footnotes
     - smarty
+    - pymdownx.mark
 shortcuts:
     help: 191    # ?
     next: 39     # right arrow

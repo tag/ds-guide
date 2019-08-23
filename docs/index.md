@@ -16,3 +16,4 @@ curriculum.
 ## Chapters
 
 * [Introduction](systems/0-intro/)
+* [Chapter 1: Version Control Systems](systems/1-vcs/)
