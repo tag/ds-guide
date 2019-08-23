@@ -1,0 +1,20 @@
+site_name: Introduction to Data & Systems
+nav:
+    - Home: index.md
+    - Chapters:
+        - 'Introduction' : 'systems/0-intro.md'
+    - About: about.md
+theme: cinder
+copyright: "© 2019, Tom Gregory"
+markdown_extensions:
+    - abbr
+    - toc:
+        permalink: false
+    - admonition
+    - footnotes
+    - smarty
+shortcuts:
+    help: 191    # ?
+    next: 39     # right arrow
+    previous: 37 # left arrow
+    search: 83   # s
