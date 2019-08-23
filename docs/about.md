@@ -3,6 +3,9 @@
 “Introduction to Data & Systems” is written to suppor a module of the same name
 in the Masters of Information Systems core class at Indiana University.
 
+## Errors and suggestions
+If you find errors or have suggestions, please let me know.
+
 ## License
 
 All content ©2019 by Tom Gregory unless otherwise noted. You may share this
