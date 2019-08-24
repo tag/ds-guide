@@ -16,7 +16,8 @@ that's eventually passed (or defeated) may have little resemblance to the law
 that was originally proposed. Other legislators may propose amendments in
 committee, or on the floor of the legislature. Every change needs to be
 documented. Actually, every _proposed_ change, whether it passes or not, needs
-to be documented—and not just the text of the change, but also who proposed it.
+to be documented—and not just the text of the change, but also metadata such as
+who proposed the change and when.
 
 This is even more important with computer code, when adding features to an
 application may affect multiple files. Everyone needs to work from the most
@@ -60,11 +61,11 @@ One major advantage of version control systems is _**branches**_. For example, t
 code for Windows 7 and Windows 10 are necessarily different, even though they
 have many of the same features. The same with Windows 10 Home and Windows 10
 Pro. The code is similar, but different in specific ways. When Microsoft
-releases a patch for a security flaw in Windows, in someimes has to fix the
+releases a patch for a security flaw in Windows, in sometimes has to fix the
 security hole in each of those versions, or branches. It's common to create a
 branch for each released version of a product. Modernly, each feature might have
 its own branch as its being developed, with the feature being merged into the
-next version when it's ready. Additionaly, each developer might have their own
+next version when it's ready. Additionally, each developer might have their own
 branch, to help limit unintended interactions from the work of others.
 
 If you attempted to commit your changes to a branch, and other developers had
@@ -81,7 +82,7 @@ become corrupted. In addition there was some odd behavior around how it handled
 merging files renamed in separate branches. Several commercial VCSs sprung up,
 including Visual SourceSafe, which was bought by Microsoft in 1995.
 To add necessary features, and take advantage of the many things developers had 
-learned about verion control systems, in 2000, a new project called Subversion
+learned about version control systems, in 2000, a new project called Subversion
 (often abbreviated as SVN) was started by some of the developers of CVS. 
 Subversion 1.0 was officially released in 2004.
 
@@ -96,7 +97,7 @@ Until about 2005, the dominant model for VCS was client–server. Most systems,
 including CVS and Subversion, used this model. One of the downsides of the
 client--server model should be obvious: if the server failed, the repository
 history was lost, and developers were left with only their working copies. This
-was partly a concious design decision in early systems. Hard drive space was
+was partly a conscious design decision in early systems. Hard drive space was
 expensive and network speeds were slow, so transferring large files was not
 optimal.
 
@@ -175,7 +176,7 @@ server and repository manager.
     Attribution Non-Commercial Share-Alike 3.0 license. It's worth reading the
     first few chapters.
 * _[Version Control with Subversion]_, by Ben Collins-Sussman, Brian W.
-  Fitzpatrick, & C. Michael Pilato, O'Reilly. This book is avaialble online in
+  Fitzpatrick, & C. Michael Pilato, O'Reilly. This book is available online in
   HTML Released under a Creative Commons 2.0 Attribution license. The section on
   [Subversion's history](http://svnbook.red-bean.com/en/1.7/svn.intro.whatis.html#svn.intro.history)
   is brief and interesting.
