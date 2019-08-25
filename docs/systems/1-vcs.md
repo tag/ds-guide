@@ -16,7 +16,8 @@ that's eventually passed (or defeated) may have little resemblance to the law
 that was originally proposed. Other legislators may propose amendments in
 committee, or on the floor of the legislature. Every change needs to be
 documented. Actually, every _proposed_ change, whether it passes or not, needs
-to be documented—and not just the text of the change, but also metadata who proposed it.
+to be documented—and not just the text of the change, but also metadata such as
+who proposed the change and when.
 
 This is even more important with computer code, when adding features to an
 application may affect multiple files. Everyone needs to work from the most
@@ -69,10 +70,10 @@ branch, to help limit unintended interactions from the work of others.
 
 If you attempted to commit your changes to a branch, and other developers had
 committed changes to the same branch since your checkout, it was necessary to
-_**update**_ (sometimes called _**merge**_) the new commits back from the 
-repository to your local copy before the your new commit would be permitted. As 
-you might suspect, as a development team grew in size, the amount of time it 
-spent merging each others' commits also grew. Modernly, the term merge is used 
+_**update**_ (sometimes called _**merge**_) the new commits back from the
+repository to your local copy before the your new commit would be permitted. As
+you might suspect, as a development team grew in size, the amount of time it
+spent merging each others' commits also grew. Modernly, the term merge is used
 to describe copying updates in one branch into another branch.
 
 Over time, some of the warts in CVS became clear. Commits to CVS were not,
@@ -80,9 +81,9 @@ _atomic_[^atomic], meaning if a commit was interrupted the repository could
 become corrupted. In addition there was some odd behavior around how it handled
 merging files renamed in separate branches. Several commercial VCSs sprung up,
 including Visual SourceSafe, which was bought by Microsoft in 1995.
-To add necessary features, and take advantage of the many things developers had 
+To add necessary features, and take advantage of the many things developers had
 learned about version control systems, in 2000, a new project called Subversion
-(often abbreviated as SVN) was started by some of the developers of CVS. 
+(often abbreviated as SVN) was started by some of the developers of CVS.
 Subversion 1.0 was officially released in 2004.
 
 [^atomic]: You might remember _atomic_ as one of the necessary parts of ACID
@@ -135,21 +136,21 @@ will _**push**_ all of the commits in a branch to a remote repository.
 Modern version control systems have several common characteristics:
 
 1. Annotation and blame. The ability to provide a full history of each line in a
-   code file, including who wrote, deleted, or changed it, when each revision 
-   was committed, and notes regarding the purpose of each commit. It's 
+   code file, including who wrote, deleted, or changed it, when each revision
+   was committed, and notes regarding the purpose of each commit. It's
    considered good practice to briefly describe each commit. A report showing
    who wrote each line (and when) is often called a "blame" file.
 
-2. Branching and merging. Although workflows differ between organizations, it's 
-  common to create a branch for each feature under development. As a feature is 
+2. Branching and merging. Although workflows differ between organizations, it's
+  common to create a branch for each feature under development. As a feature is
   completed, those branches are typically merged into release branches. In more
   complicated setups, each developer might have their own branch for each
   feature. The ability to merge a change to multiple branches---for example,
   making a security fix to multiple versions---is much easier in modern systems.
 
-3. Traceability. Annotations allow VCSs to connect to requirements systems and 
-  issue tracking systems. In some industries, such as defense and aerospace, 
-  it's critical to be able to identify why each change was made, and who 
+3. Traceability. Annotations allow VCSs to connect to requirements systems and
+  issue tracking systems. In some industries, such as defense and aerospace,
+  it's critical to be able to identify why each change was made, and who
   requested it. Traceability and requirements systems are often separate from
   VCSs, but can integrate with them.
 
@@ -157,8 +158,8 @@ Modern version control systems have several common characteristics:
 
 It's important not to confuse Git with the hosting provider. Atlassian has a Git
 hosting service called [BitBucket]. GitHub---which was acquired by Microsoft in
-2018 for $7.5 billion---has their eponymous hosting service. Like Bitbucket, 
-GitHub is merely a web interface over the top of a cloud-hosted Git server. 
+2018 for $7.5 billion---has their eponymous hosting service. Like Bitbucket,
+GitHub is merely a web interface over the top of a cloud-hosted Git server.
 
 Modernly, there are many quality Git hosting providers, including [GitLab],
 which also provides an opensource interface if you wish to run your own hosting
@@ -194,7 +195,7 @@ Git and GitHub on the command line.
 
 ## Footnotes
 ///Footnotes Go Here///
-    
+
 ## Review
 
 1. What is a "Version Control System" used for?
