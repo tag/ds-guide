@@ -4,7 +4,10 @@ nav:
     - Chapters:
         - 'Introduction' : 'systems/0-intro.md'
         - 'Chapter 1: Version Control Systems' : 'systems/1-vcs.md'
-        - 'Chapter 2: Working with Data' : 'systems/2-data.md'
+        - 'Chapter 2: Working with Data':
+          - '2.1: Introduction to Data' : 'systems/2.1-data.md'
+          - '2.2: Information Systems and Data' : 'systems/2.2-is-and-data.md'
+          - '2.3: Data Structures' : 'systems/2.3-data-structures.md'
         - 'Chapter 3: Complex Systems' : 'systems/3-systems.md'
         - 'Version Control Systems':
             - 'Installing Git': 'empty.md'
