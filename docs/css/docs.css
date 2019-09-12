@@ -5,3 +5,7 @@
 /*.footnote > hr::after {
     content: "<h3>Footnotes</h3>";
 }*/
+
+figure { /* TODO: Make this work */
+  text-align:center;
+}

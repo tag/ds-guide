@@ -1,0 +1,20 @@
+# Persistent Data Stores
+
+TODO: list brief history, and some examples/uses for each of the following
+- advantages of a database over a flat-file scheme
+
+## Hierarchical databases
+
+- file systems
+- LDAP and other directory services
+
+## Relational Databases
+
+- brief history
+- Normalization, normal forms, BCNF hight level overview
+
+## Key--value databases
+
+## Document Databases
+
+- MongoDb

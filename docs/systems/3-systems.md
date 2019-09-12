@@ -1,3 +1,7 @@
+“Client–server application”
+“Thin client/thick client”
+
+
 thin client, thick client, rich client
 
 https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice
